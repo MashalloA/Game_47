@@ -198,10 +198,10 @@ def play_round(boss, heroes_list):
 
 
 def start_game():
-    boss = Boss(name='Minotaur', health=1600, damage=55)
+    boss = Boss(name='Minotaur', health=1800, damage=55)
 
-    warrior_1 = Warrior(name='Asterix', health=290, damage=10)
-    warrior_2 = Warrior(name='Obelix', health=280, damage=15)
+    warrior_1 = Warrior(name='Asterix', health=320, damage=10)
+    warrior_2 = Warrior(name='Obelix', health=380, damage=15)
     magic = Magic(name='Alice', health=270, damage=5)
     berserk = Berserk(name='Guts', health=220, damage=10)
     doc = Medic(name='Doc', health=200, damage=5, heal_points=15)
